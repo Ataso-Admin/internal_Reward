@@ -1,0 +1,116 @@
+/* ===== Global Styles ===== */
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f2439; /* Dark sci-fi background color */
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+/* ===== Header and Main ===== */
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(#0d3349, #102e42);
+    box-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #00f0ff;
+    text-shadow: 0 0 5px #00f0ff;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* ===== Leaderboard Section ===== */
+#leaderboard {
+    margin: 0 auto;
+    background: #0a1a2a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00f0ff;
+}
+
+#leaderboard h2 {
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 1.8rem;
+    text-shadow: 0 0 5px #00f0ff;
+}
+
+/* ===== Table Styling ===== */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0;
+    margin: 0 auto;
+    background: #0f1e2f;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+    overflow: hidden;
+}
+
+/* Make table header fixed and body scrollable if needed */
+thead {
+    background: #102e42; 
+    display: table-header-group;
+}
+tbody {
+    display: block;
+    max-height: 500px; /* Adjust height as needed */
+    overflow-y: auto;
+}
+
+/* Table columns should align properly despite thead/tbody separation */
+thead tr, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+/* ===== Table Header ===== */
+thead th {
+    padding: 12px;
+    font-weight: 600;
+    text-align: left;
+    text-shadow: 0 0 3px #00bcd4;
+    border-bottom: 2px solid #00bcd4;
+}
+
+/* ===== Table Body Rows ===== */
+tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #1b3b52;
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+    background: #18344c;
+}
+
+/* ===== Rank Column ===== */
+tbody td:first-child {
+    font-weight: bold;
+    color: #00f0ff;
+    text-shadow: 0 0 3px #00f0ff;
+}
+
+/* Optional: Scrollbar customization (works in Chrome/Edge/Opera) */
+tbody::-webkit-scrollbar {
+    width: 8px;
+}
+
+tbody::-webkit-scrollbar-track {
+    background: #0f1e2f;
+}
+
+tbody::-webkit-scrollbar-thumb {
+    background: #00bcd4;
+    border-radius: 4px;
+}
