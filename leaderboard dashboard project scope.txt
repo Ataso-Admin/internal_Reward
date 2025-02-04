@@ -1,0 +1,61 @@
+Certainly! Here's a summary of the features we've discussed for your Ice Age-themed leaderboard application:
+
+1. Public Leaderboard Page:
+
+Accessible to all visitors without requiring login.
+Displays a ranked list of users based on their total points, from highest to lowest.
+2. User Authentication with Roles:
+
+Two user roles: Manager and User.
+Login functionality to authenticate users and assign appropriate roles.
+3. Point Allocation by Managers:
+
+Only users with the Manager role can assign points to other users.
+Point allocation form includes:
+Manager's name (auto-detected).
+Timestamp of point allocation (auto-detected).
+Reason for point allocation.
+Event date and time.
+Number of points (between 1 and 10).
+Recipient's username (selected from a list).
+4. Point Reward System:
+
+Managers can assign between 1 to 10 points per allocation.
+Each point allocation is recorded with details for transparency and tracking.
+5. Leaderboard Display:
+
+Shows all users' total points in descending order.
+Provides a clear view of user rankings based on accumulated points.
+6. Database Integration:
+
+Utilizes Microsoft SQL Server (MSSQL) for data storage.
+Stores user information, roles, point allocations, and related data.
+7. Ice Age-Themed Design:
+
+User interface features an Ice Age theme for a unique and engaging aesthetic.
+Consistent design elements across all pages to enhance user experience.
+8. Admin User Management:
+
+Dedicated page for Admins to add new users and managers to the database.
+Form includes fields for username, password, and role selection.
+Ensures proper role assignment and secure user management.
+9. Security Measures:
+
+Password hashing for secure storage of user credentials.
+Session management to maintain user authentication states.
+Input validation and sanitization to prevent SQL injection and other vulnerabilities.
+10. Error Handling and User Feedback:
+
+Informative messages for successful operations and error scenarios.
+Guides users through various processes with clear instructions and feedback.
+These features collectively provide a comprehensive system for managing user interactions, point allocations, and displaying rankings, all within an engaging Ice Age-themed interface.
+
+For further reading and examples on implementing similar systems, you might find the following resources helpful:
+
+PSL: Simple PHP + SQL + Leaderboard System: An open-source leaderboard system written in PHP. 
+GITHUB
+
+How to make a leaderboard using PHP: A tutorial on creating a leaderboard with PHP. 
+GEEKSFORGEEKS
+
+Multi Role Login System Using PHP and MySQL: A project demonstrating a multi-role login system with source code. 

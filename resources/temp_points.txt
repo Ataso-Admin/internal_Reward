@@ -1,0 +1,13 @@
+{"manager_id":"3","recipient_username":"user1","points":null,"reason":null,"event_date":null,"created_at":"2025-01-15 16:43:40"}
+{"manager_id":"3","recipient_username":null,"points":"1","reason":null,"event_date":null,"created_at":"2025-01-15 16:43:40"}
+{"manager_id":"3","recipient_username":null,"points":null,"reason":"sadasdasd","event_date":null,"created_at":"2025-01-15 16:43:40"}
+{"manager_id":"3","recipient_username":null,"points":null,"reason":null,"event_date":"2025-01-07","created_at":"2025-01-15 16:43:40"}
+{"manager_id":"3","recipient_username":"user1","points":"3","reason":"asdasdwq","event_date":"2025-01-07","created_at":"2025-01-15 17:07:13"}
+{"manager_id":"3","recipient_username":"user1","points":"6","reason":"asdwqdqw","event_date":"2025-01-09","created_at":"2025-01-15 17:08:50"}
+{"manager_id":"3","recipient_username":"user1","points":"6","reason":"asdwqdqw","event_date":"2025-01-09","created_at":"2025-01-15 17:08:56"}
+{"manager_id":"3","recipient_username":"user1","points":"6","reason":"asdwqdqw","event_date":"2025-01-09","created_at":"2025-01-15 17:14:28"}
+{"manager_id":"3","recipient_username":"user1","points":"6","reason":"dsad","event_date":"2025-01-14","created_at":"2025-01-15 17:14:44"}
+{"manager_id":"3","recipient_username":"user1","points":"6","reason":"dsad","event_date":"2025-01-14","created_at":"2025-01-15 17:15:36"}
+{"manager_id":"3","recipient_username":"user1","points":"6","reason":"dsad","event_date":"2025-01-14","created_at":"2025-01-15 17:15:40"}
+{"manager_id":"3","recipient_username":"user1","points":"7","reason":"gtrg t45","event_date":"2025-01-15","created_at":"2025-01-15 17:16:21"}
+{"manager_id":"3","recipient_username":"user1","points":"7","reason":"gtrg t45","event_date":"2025-01-15","created_at":"2025-01-15 17:17:05"}
