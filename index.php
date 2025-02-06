@@ -45,7 +45,7 @@ if ($selectedSeason === 'current') {
       margin: 0;
       padding: 0;
       background-color: #0f2439; 
-      background-image: url("https://reward.ataso.io/leaderboard_background.png"); 
+      background-image: url("https://reward.ataso.io/resources/ZB wallapper landscape 2048 x 1152.png"); 
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
